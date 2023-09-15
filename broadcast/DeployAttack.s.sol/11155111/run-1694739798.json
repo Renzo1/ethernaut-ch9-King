@@ -1,0 +1,61 @@
+{
+  "transactions": [
+    {
+      "hash": "0x76bf760a1c15805fd7590f07a60d73303060a496ae3e0e9f7eee4ec0ef0d3e1f",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x222F09c24Ffc9aA170d2A3cBA6B5D79a835E09Af",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x0b9e2f440a82148bfddb25bea451016fb94a3f02",
+        "to": "0x222f09c24ffc9aa170d2a3cba6b5d79a835e09af",
+        "gas": "0x7e26",
+        "value": "0x0",
+        "data": "0xe3ac5d26",
+        "nonce": "0x68",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0xf00237b17cd8141e23d571fd5d7867139ef4745229532439c0bac88a27475a02",
+      "transactionType": "CREATE",
+      "contractName": "Attack",
+      "contractAddress": "0xd9B2f6eAdD5f3bcB58fdbd05939a12fc9C4110E4",
+      "function": null,
+      "arguments": [
+        "0x222F09c24Ffc9aA170d2A3cBA6B5D79a835E09Af"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x0b9e2f440a82148bfddb25bea451016fb94a3f02",
+        "gas": "0x20767",
+        "value": "0x38d7ea4c68000",
+        "data": "0x60806040526040516101173803806101178339810160408190526020916074565b6040516001600160a01b038216903490600081818185875af1925050503d80600081146067576040519150601f19603f3d011682016040523d82523d6000602084013e606c565b606091505b5050505060a2565b600060208284031215608557600080fd5b81516001600160a01b0381168114609b57600080fd5b9392505050565b6067806100b06000396000f3fe6080604081905262461bcd60e51b81526020608452600c60a4526b5069636b6c65205269636b2160a01b60c452606490fdfea2646970667358221220594f3749522a6776583aad3833381743483550ce573143906ea5788e539ca66c64736f6c63430008130033000000000000000000000000222f09c24ffc9aa170d2a3cba6b5d79a835e09af",
+        "nonce": "0x69",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x76bf760a1c15805fd7590f07a60d73303060a496ae3e0e9f7eee4ec0ef0d3e1f",
+    "0xf00237b17cd8141e23d571fd5d7867139ef4745229532439c0bac88a27475a02"
+  ],
+  "returns": {
+    "0": {
+      "internal_type": "contract Attack",
+      "value": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  "timestamp": 1694739798,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "da7a445"
+}
